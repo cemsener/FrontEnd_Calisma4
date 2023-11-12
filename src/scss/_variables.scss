@@ -1,0 +1,130 @@
+$font-family-plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+
+//Font Sizes
+$font-size-xs: 12px;
+$font-size-sm: 14px;
+$font-size-base: 16px;
+$font-size-lg: 18px;
+$font-size-lg-20: 20px;
+$font-size-xl: 24px;
+$font-size-xl-32: 32px;
+$font-size-2xl: 36px;
+$font-size-3xl: 40px;
+$font-size-4xl: 72px;
+
+//Font Weightes
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+//Text Color
+$font-color: #111111;
+
+//Color Styles
+//Primary Neutral Palette
+$color-primary-dark-900: #0a196f;
+$color-primary-dark-800: #102587;
+$color-primary-dark-700: #1a37a7;
+$color-primary-dark-600: #264bc8;
+$color-primary-default-500: #3563e9;
+$color-primary-light-400: #658df1;
+$color-primary-light-300: #85a8f8;
+$color-primary-light-200: #aec8fc;
+$color-primary-light-100: #d6e4fd;
+$color-white: #ffffff;
+
+//Success
+$color-success-dark-900: #3b6506;
+$color-success-dark-800: #4c7a0b;
+$color-success-dark-700: #659711;
+$color-success-dark-600: #7fb519;
+$color-success-default-500: #9cd323;
+$color-success-light-400: #bce455;
+$color-success-light-300: #d3f178;
+$color-success-light-200: #e8faa6;
+$color-success-light-100: #f5fcd2;
+
+//Error
+$color-error-dark-900: #7a0619;
+$color-error-dark-800: #930b16;
+$color-error-dark-700: #b71112;
+$color-error-dark-600: #db2719;
+$color-error-default-500: #ff4423;
+$color-error-light-400: #ff7f59;
+$color-error-light-300: #ffa37a;
+$color-error-light-200: #ffc8a6;
+$color-error-light-100: #ffe7d3;
+
+//Warning
+$color-warning-dark-900: #7a4d0b;
+$color-warning-dark-800: #b7821d;
+$color-warning-dark-700: #dba32a;
+$color-warning-dark-600: #ffc73a;
+$color-warning-default-500: #ffd96b;
+$color-warning-light-400: #ffd96b;
+$color-warning-light-300: #ffe488;
+$color-warning-light-200: #ffefb0;
+$color-warning-light-100: #fff8d7;
+
+//Information
+$color-information-dark-900: #102e7a;
+$color-information-dark-800: #1a4393;
+$color-information-dark-700: #2a60b7;
+$color-information-dark-600: #3d81db;
+$color-information-default-500: #54a6ff;
+$color-information-light-400: #7ec2ff;
+$color-information-light-300: #98d3ff;
+$color-information-light-200: #bae5ff;
+$color-information-light-100: #dcf3ff;
+
+//Secondinary
+$color-secondinary-dark-900: #040815;
+$color-secondinary-dark-800: #080c19;
+$color-secondinary-dark-700: #0d121f;
+$color-secondinary-dark-600: #131825;
+$color-secondinary-default-500: #1a202c;
+$color-secondinary-light-400: #596780;
+$color-secondinary-light-300: #90a3bf;
+$color-secondinary-light-200: #c3d4e9;
+$color-secondinary-light-100: #e0e9f4;
+
+//BUttons
+//Primary-Button
+$primary: #3563e9;
+$secondary: #ffffff;
+$minimal: #596780;
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "minimal": $minimal,
+);
+
+//padding
+$btn-padding-y-sm: 0.3125rem;
+$btn-padding-x-sm: 1rem;
+$btn-font-size-sm: 0.75rem;
+
+$btn-padding-y-md: 0.5625rem;
+$btn-padding-x-md: 1rem;
+$btn-font-size-md: 0.75rem;
+
+$btn-padding-y-lg: 0.8125rem;
+$btn-padding-x-lg: 1.5rem;
+$btn-font-size-lg: 1rem;
+
+//border
+$btn-border-radius-sm: 0.25rem;
+$btn-border-radius-md: 0.25rem;
+$btn-border-radius-lg: 0.25rem;
+
+.btn.btn-md {
+  padding: $btn-padding-y-md $btn-padding-x-md;
+  font-size: $btn-font-size-md; // Veya istediğiniz özel font boyut
+  line-height: $btn-line-height;
+  border-radius: $btn-border-radius-md;
+}
+
+$btn-hover-bg-shade-amount: 0%;
+$btn-active-bg-shade-amoun: 60%;
+$btn-disabled-opacity: 0.35;

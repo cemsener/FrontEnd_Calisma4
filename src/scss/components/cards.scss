@@ -1,0 +1,109 @@
+body {
+  background: gray;
+}
+
+.card {
+  margin-bottom: 10px;
+  width: 327px;
+  height: 240px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: var(--primary-0, #fff);
+  padding: 16px;
+
+  .card-head {
+    display: flex;
+    justify-content: space-between;
+
+    .car-name {
+      margin: 0;
+      .car-model {
+        font-family: $font-family-plus-jakarta-sans;
+        font-size: $font-size-base;
+        font-weight: $font-weight-semibold;
+        color: $color-secondinary-default-500;
+        letter-spacing: -0.16px;
+        margin-bottom: 0;
+      }
+
+      .car-type {
+        color: $color-secondinary-light-300;
+        font-family: $font-family-plus-jakarta-sans;
+        font-size: $font-size-xs;
+        font-weight: $font-weight-medium;
+        line-height: normal;
+      }
+    }
+
+    i {
+      width: 16px;
+      height: 16px;
+      color: red;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .card-main {
+    display: flex;
+    justify-content: space-between;
+    .car-image {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #fff 100%),
+        url("../assets/car.png");
+      width: 160px;
+      height: 64px;
+      margin-top: 28px;
+      margin-left: 15px;
+    }
+    .car-info {
+      margin: 0;
+      padding: 0;
+      margin-top: 12px;
+      .car-info-detail {
+        display: flex;
+        margin-bottom: 16px;
+        align-items: flex-start;
+        img {
+          width: 14px;
+          height: 14px;
+        }
+        .car-info-text {
+          margin: 0;
+          display: flex;
+          margin-left: 4px;
+          font-family: $font-family-plus-jakarta-sans;
+          font-size: $font-size-xs;
+          font-weight: $font-weight-medium;
+          color: $color-secondinary-light-300;
+        }
+      }
+    }
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+    .footer-info {
+      display: flex;
+      align-items: flex-end;
+
+      .car-price {
+        color: $color-secondinary-default-500;
+        font-family: $font-family-plus-jakarta-sans;
+        font-size: $font-size-base;
+        font-weight: $font-weight-bold;
+        letter-spacing: -0.16px;
+      }
+
+      .car-rent {
+        color: $color-secondinary-light-300;
+        font-family: $font-family-plus-jakarta-sans;
+        font-size: $font-size-xs;
+        font-weight: $font-weight-bold;
+        letter-spacing: -0.12px;
+        margin-left: 3px;
+      }
+    }
+  }
+}
